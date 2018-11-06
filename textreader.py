@@ -93,7 +93,7 @@ def words_with_only(letters):
             if uses_only(word,inp):
                 count_a += 1
         print(count_a)
-    
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
